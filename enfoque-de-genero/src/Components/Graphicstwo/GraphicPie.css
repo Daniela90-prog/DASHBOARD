@@ -26,3 +26,18 @@
   align-items: center;
   margin-left: auto; /* Esto mueve el componente hacia la derecha */
 }
+
+  /* Estilos para pantallas más grandes */
+  @media screen and (min-width: 700px) {
+    .containerGraphicTwo {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Estilos para pantallas más pequeñas */
+  @media screen and (max-width: 450px) {
+    .tittleTwo {
+      margin-top: -20px;
+    }
+  }
+  

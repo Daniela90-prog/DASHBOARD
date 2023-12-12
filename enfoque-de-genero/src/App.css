@@ -1,4 +1,11 @@
-.root {
-  background-color: #F0E5E5;
-
+.containerResponsive {
+  background-color:#F0E5E5 ;
+  margin: 0;
 }
+
+@media screen and (max-width:700px) {
+  .containerResponsive {
+    display: inline-block;
+  }
+}
+  
