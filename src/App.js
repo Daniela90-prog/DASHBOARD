@@ -5,6 +5,7 @@ import Tittle from './Components/Tittle/Tittle';
 import TotalAttention from './Components/TotalAttention/TotalAttention';
 import YearButtons from './Components/YearButtons/YearButtons';
 import { SexGraphic } from './Components/SexGraphic/SexGraphic';
+import { SexualOrientationGraphic } from './Components/SexualOrientationGraphic/SexualOrientationGraphic';
 
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
       <br></br>
       <br></br>
       <SexGraphic />
+      <br></br>
+      <SexualOrientationGraphic />
 
     </div>
   );
