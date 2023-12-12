@@ -59,7 +59,7 @@ const SexGraphic = () => {
     };
 
     return (
-      <div className="sexGraphicTittle">
+      <div className="sexGraphic">
         {/*Graphic sign*/}
         <div className="sexTittleOne">
           <div className="sexTextOne">

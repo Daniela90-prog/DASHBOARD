@@ -25,10 +25,29 @@ ChartJS.register(
 );
 
 const SexualOrientationGraphic = () => {
+
+    const sexuality = ["Heterosexual", "Bisexual", "Lesbiana", "Gay", "Sin información disposnible", "NS / NR"];
+    const quantity = [50060, 2020, 1525, 703, 192, 58];
+    const data = {
+        labels: sexuality,
+        datasets:[
+            {
+                Label: "Número de casos totales",
+                data: quantity,
+                borderColor: ["rgba(49, 140, 231, 1)"],
+                borderWidth: 2,
+                backgroundColor: ["rgba(49, 140, 231, 1)"],
+            },
+        ],
+    }
     return(
-        <>
-            <Line />
-        </>
+        <div className="sexualOrientationGraphic">
+            {/* Graphic container*/}
+            <div className="sexualOrientationGraphicContainer">
+                {/* Graphic */}
+                <Line data={data} />
+            </div>
+        </div>
     );
 };
 
