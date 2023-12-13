@@ -35,8 +35,8 @@ const SexGraphic = () => {
               label: "Número de casos totales",
               data: quantity,
               borderColor: ["rgba(49, 140, 231, 1)"],
-              borderWidth: 2,
               backgroundColor: ["rgba(49, 140, 231, 1)"],
+              borderWidth: 2,
             },
         ],
     };

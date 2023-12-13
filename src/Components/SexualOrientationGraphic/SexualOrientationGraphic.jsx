@@ -34,18 +34,46 @@ const SexualOrientationGraphic = () => {
             {
                 Label: "Número de casos totales",
                 data: quantity,
-                borderColor: ["rgba(49, 140, 231, 1)"],
+                borderColor: ["rgba(232, 174, 230, 100)"],
+                backgroundColor: ["rgba(232, 174, 230, 100)"],
                 borderWidth: 2,
-                backgroundColor: ["rgba(49, 140, 231, 1)"],
             },
         ],
     }
+
+    const options = {
+
+        responsive: true,
+
+        scales: {
+            y: {
+              min: 0,
+            },
+        },      
+
+        plugins: {
+            legend: {
+              display: true,
+            },
+        },
+
+    };
+
     return(
+
+
         <div className="sexualOrientationGraphic">
+            {/*Graphic sign*/}
+            <div className="sexualOrientationGraphicTittleOne">
+                <div className="sexualOrientationGraphicTextOne">
+                    <h3>Orientación sexual</h3>
+                </div>
+            </div>
+
             {/* Graphic container*/}
             <div className="sexualOrientationGraphicContainer">
                 {/* Graphic */}
-                <Line data={data} />
+                <Line data={data} options={options} />
             </div>
         </div>
     );

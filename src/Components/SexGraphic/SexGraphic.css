@@ -7,7 +7,7 @@
     border-radius: 25px;
     justify-content: center;
     align-items: center;
-    margin: 50px 10px; /* Adjusts the margin for top, bottom and left spacing */
+    margin: 40px 60px; /* Adjusts the margin for top, bottom and left spacing */
 }
   
 .sexTextOne {
@@ -25,5 +25,5 @@
     border-radius: 15px;
     justify-content: center;
     align-items: center;
-    margin: 50px 10px; /* Adjusts the margin for top, bottom and left spacing */
+    margin: 40px 60px; /* Adjusts the margin for top, bottom and left spacing */
 }
